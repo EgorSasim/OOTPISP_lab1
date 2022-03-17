@@ -6,20 +6,21 @@ using System.Threading.Tasks;
 
 namespace ShapesMaker
 {
-    internal class Line : Shape
+    internal class Circle :Shape
     {
-        public Line(Point p1, Point p2)
+        public Circle(Point p1, int diameter)
         {
             P1 = p1;
-            P2 = p2;  
+            Diameter = diameter;
         }
 
-        Point P1;
-        Point P2;
+        public Point P1;
+        public int Diameter;
 
         public override string Draw()
         {
-            return $"Line: ({P1.X}, {P1.Y}, {P2.X}, {P2.Y})";
+            return $"Circle: ({P1.X}, {P1.Y}, {Diameter})";
         }
+
     }
 }
