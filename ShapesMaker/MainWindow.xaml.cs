@@ -23,6 +23,9 @@ namespace ShapesMaker
         public MainWindow()
         {
             InitializeComponent();
+
+
+            Shape line = new Line(new Point(1,1), new Point(2,2));
         }
     }
 }
