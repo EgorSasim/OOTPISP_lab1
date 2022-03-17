@@ -5,40 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ShapesMaker"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="500" Width="1000">
     <Grid>
-        <Line
-           X1="10" Y1="10"
-           X2="100" Y2="10"
-           Stroke="Black"
-           StrokeThickness="4" Margin="82,119,-82,-119"
-        />
-        <Rectangle
-            Width="100"
-            Height="50"
-            Fill="Red" Margin="224,106,476,278" />
-        <Rectangle
-            Width='50'
-            Height='50'
-            Fill="Blue" Margin="386,106,364,278"/>
-        <Ellipse
-            Width="50px"
-            Height="50px"
-            Stroke='Black' Margin="545,247,205,137"/>
-        <Polygon 
-            Points="0,0 60,50 0,100"
-            Stroke="Yellow"
-            Fill="Black" Margin="405,-456,-405,455" RenderTransformOrigin="0.5,0.5">
-            <Polygon.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform/>
-                    <SkewTransform/>
-                    <RotateTransform Angle="-90.176"/>
-                    <TranslateTransform/>
-                </TransformGroup>
-            </Polygon.RenderTransform>
-        </Polygon>
-
-
+        
     </Grid>
 </Window>
