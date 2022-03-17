@@ -14,8 +14,8 @@ namespace ShapesMaker
             P2 = p2;  
         }
 
-        Point P1;
-        Point P2;
+        public Point P1;
+        public Point P2;
 
         public override string Draw()
         {
